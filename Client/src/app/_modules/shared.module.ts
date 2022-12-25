@@ -15,9 +15,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     NgxGalleryModule,
-    NgxSpinnerModule.forRoot({
-      type: 'pacman'
-    }),
+    NgxSpinnerModule,
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'
     })
